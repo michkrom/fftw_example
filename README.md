@@ -6,6 +6,8 @@ A wrapper and basic test for FFTW library.
 
 * Build via conan.
 
+```
 mkdir build && cd build
 conan install ..
 conan build ..
+```
