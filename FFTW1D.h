@@ -1,10 +1,11 @@
 #pragma once
 
 #include <gsl/gsl-lite.hpp>
-#include <fftw3.h>
 #include <complex>
 
-template <typename InT_ = fftw_complex, typename OutT_ = fftw_complex>
+#include <fftw3.h>
+
+template <typename InT_ = std::complex<double>, typename OutT_ = std::complex<double>>
 class FFTW1D
 {
 public:
